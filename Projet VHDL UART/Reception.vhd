@@ -1,42 +1,80 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_unsigned.all;
 use ieee.numeric_std.all;
 
 entity reception is
-port ( recept: in std_logic;
-	tram_recu: unsigned (7 downto 0));
+    port(
+        clk, rst, tickx16, rx_in: in std_logic;
+        rx_data_out             : out std_logic_vector(7 downto 0));
 end entity;
 
 architecture arch of reception is
-signal count: integer := 10;
-signal tram_r: unsigned (7 downto 0):= (others =>'0');
-signal parity_bit_R : std_logic := '0';
+
+    type rx_etats is (Idle,start,data,stop);
+    signal rx_etat : rx_etats;
+
+    signal rx_data_temp  : std_logic_vector(7 downto 0):= (others => '0');
+
 begin
 
+    rx_data_out <= rx_data_temp;
 
-process(recept)
-begin
-	if count = 10 and tram_r = x"00" then
-		if recept = '1' then
-			count <= count -1;
-		elsif count < 10 and count > 1 then 
-			tram_r (count-2) <= to_unsigned(recept);
-			parity_bit_R <= parity_bit_R xor recept;
-			count <= count - 1;
-		elsif count < 2 then
-			if count == 1 and recept /= parity_bit_R then
-				count <= 10; --reset
-				tram_r<= (others =>'0');
-			end if;
-			if count ==0 and reception <='0' then
-				count <= 10; --reset
-				tram_r<= (others =>'0');
-			end if;
-		end if;
-	end if;
-end process;
-if tram_r /= x"00" then
-	tram_recu <= tram_r;
-end if;
+    machineAetat: process(clk)
+
+        variable bit_count: integer range 0 to 7      := 0;
+        variable bit_duration: integer range 0 to 15  := 0;
+
+    begin
+        if rising_edge(clk) then
+            if rst = '1' then
+                rx_etat <= idle;
+                bit_duration := 0;
+                bit_count := 0;
+                rx_data_temp <= (others => '0');
+            else
+                if (tickx16 = '1') then 
+                    case rx_etat is 
+                        when Idle =>
+                            rx_data_temp <= (others => '0');
+                            bit_duration := 0;
+                            bit_count := 0;
+                            if (rx_in = '0') then 
+                                rx_etat <= start;
+                                if (bit_duration = 7) then
+                                    rx_etat <= data;
+                                    bit_duration := 0;
+                                else
+                                    bit_duration := bit_duration +1;
+                                end if;
+                            else
+                                rx_etat <= Idle;
+                            end if;
+
+                        when data =>
+                                    if bit_duration = 10 then 
+                                        rx_data_temp(bit_count) <= rx_in;
+                                        bit_duration := 0;
+                                        if bit_count = 7 then 
+                                            rx_etat <= stop;
+                                            bit_duration := 0;
+                                        else
+                                            bit_count := bit_count + 1;
+                                        end if;
+                                    else
+                                        bit_duration := bit_duration + 1;
+                                    end if;
+                        when stop =>
+                                    if bit_duration = 15 then
+                                        rx_etat <= idle;
+                                        bit_duration := 0;
+                                    else
+                                        bit_duration := bit_duration + 1;
+                                    end if;
+                        when others =>
+                                        rx_etat <= idle;
+                    end case;
+                end if;
+            end if;
+        end if;                    
+    end process;
 end arch;
