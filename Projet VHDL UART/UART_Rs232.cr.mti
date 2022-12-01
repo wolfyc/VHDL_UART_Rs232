@@ -1,18 +1,1 @@
-{C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity reception
--- Compiling architecture arch of reception
-** Error: C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd(24): (vcom-1600) No feasible entries for subprogram "TO_UNSIGNED".
-   Visible subprograms are:
-      (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1461)
-** Error: C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd(28): near "=": syntax error
-** Error: C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd(32): near "=": syntax error
-** Error: C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd(36): near "if": (vcom-1576) expecting PROCESS.
 
-} {11.0 12.0 14.0 17.0} {}}

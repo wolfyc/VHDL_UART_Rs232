@@ -8,27 +8,85 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/17.0
-Ereception
-w1667493144
-DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-dC:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART
-8C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd
-FC:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd
+Ebaude_rate
+Z0 w1669902751
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART
+Z5 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd
+Z6 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd
 l0
-L6
-VSNXf3X@K];Ghn8EHa_2Al0
-!s100 7:]8W?d7BQTQhNU=:;YHo1
-OV;C;10.5b;63
+L5
+VMPI:zzo;PP?bRY>G`Gi9Q0
+!s100 mUhnFehn=a@Q@N0je7H9K2
+Z7 OV;C;10.5b;63
 32
-!s110 1667493239
+Z8 !s110 1669902797
 !i10b 1
-!s108 1667493239.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd|
-!s107 C:/Users/hrf_m/OneDrive/Desktop/Etudes Ei2i/Projet VHDL UART/Reception.vhd|
+Z9 !s108 1669902797.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd|
+Z11 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd|
 !i113 1
-o-work work -2002 -explicit
-tExplicit 1 CvgOpt 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+R3
+DEx4 work 10 baude_rate 0 22 MPI:zzo;PP?bRY>G`Gi9Q0
+l24
+L13
+VRn6_O>QcYOP6z^Q83EXcP1
+!s100 _KS6KB5ilOQXP=5;Ba9b:1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ereception
+Z14 w1669899992
+R1
+R2
+R3
+R4
+Z15 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd
+Z16 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd
+l0
+L5
+V9Ikj`^YPB3LfXlK1:gSfk3
+!s100 `POOJ^KJ9<5`[Am34F>@g0
+R7
+32
+Z17 !s110 1669902787
+!i10b 1
+Z18 !s108 1669902787.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd|
+Z20 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+DEx4 work 9 reception 0 22 9Ikj`^YPB3LfXlK1:gSfk3
+l18
+L11
+VnX:lXFJVm=UM[OY>m>YW21
+!s100 a`Bd9IKz;k>?:?5jmZGdm0
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
