@@ -41,12 +41,16 @@ begin
                                 rx_etat <= Idle;
                             end if;
                         when start =>
-                            if (bit_duration = 12) then rx_etat <= data; 
+                            if (bit_duration = 12) then 
+                                rx_etat <= data;
+                                bit_duration := 0;
+                            else 
+                                bit_duration := bit_duration+1;
                             end if;
                         when data =>
-                                        if bit_count = 7 then 
-                                            rx_etat <= stop;
-                                        end if;
+                            if bit_count = 7 then 
+                                rx_etat <= stop;
+                            end if;
                         when stop =>
                                     if bit_duration = 15 then
                                         rx_etat <= idle;
@@ -57,5 +61,15 @@ begin
                 end if;
             end if;
         end if;                    
+    end process;
+
+    output : process(rx_etat)
+    begin
+        if rx_etat <= idle then
+            rx_data_temp <= (others => '0');
+            bit_duration := 0;
+            bit_count := 0;
+        elsif rx_etat <= start then
+            
     end process;
 end arch;
