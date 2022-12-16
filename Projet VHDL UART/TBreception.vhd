@@ -45,7 +45,10 @@ begin
     elsif rising_edge(br_X1_tick_tb) then
         cmt = cmt +1;
     end if;
-    
+    rx_in_tb <= value(cmt);
+    if cmt = 12 then
+        cmt =1;
+    end if
 
 end process;
 end arch;
