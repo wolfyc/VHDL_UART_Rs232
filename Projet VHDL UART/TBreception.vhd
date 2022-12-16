@@ -34,5 +34,19 @@ begin
     wait for 10 NS;
 end process;
 
+constant value :std_logic_vector(11 downto 0):="110101010101";
+
+transmission: process(br_X1_tick_tb)
+
+variable cmt: integer range 1 to 12;
+begin
+    if rst_tb = '1' then
+        cmt = 1;
+    elsif rising_edge(br_X1_tick_tb) then
+        cmt = cmt +1;
+    end if;
+    
+
+end process;
 end arch;
 

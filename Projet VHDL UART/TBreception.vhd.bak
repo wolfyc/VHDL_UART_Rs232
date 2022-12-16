@@ -12,20 +12,27 @@ architecture arch of tb is
 begin
 
 baude_rate: entity work.Baude_rate 
-Generic map (  DE10_clock => 50E6,
-		    baudeRate => 9600);
-port map(	
-        rst=>rst_tb,
-		clk=>clk_tb,
-		br_X1_tick=>br_X1_tick_tb,
-		br_X16_tick=>tickx16_tb);
+    Generic map (  DE10_clock => 50E6,
+                baudeRate => 9600)
+    port map(	
+            rst=>rst_tb,
+            clk=>clk_tb,
+            br_X1_tick=>br_X1_tick_tb,
+            br_X16_tick=>tickx16_tb);
 
 uut: entity work.reception port map(
-    clk=>clk_tb,
-    rst=>rst_tb,
-    tickx16=> tickx16_tb,
-    rx_in=>rx_in_tb,
-    rx_data_out=>rx_data_out_tb);
+                                        clk=>clk_tb,
+                                        rst=>rst_tb,
+                                        tickx16=> tickx16_tb,
+                                        rx_in=>rx_in_tb,
+                                        rx_data_out=>rx_data_out_tb);
+Horloge: process
+begin
+    clk_tb <= '0';
+    wait for 10 NS;
+    clk_tb <= '1';
+    wait for 10 NS;
+end process;
 
 end arch;
 
