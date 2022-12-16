@@ -12,15 +12,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package STANDARD
 ** Error: C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd(1): near "ran": syntax error
 
-} {4.0 5.0} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd}
+} {4.0 5.0} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity tb
--- Compiling architecture arch of tb
--- Loading entity baude_rate
--- Loading entity reception
+-- Compiling entity baude_rate
+-- Compiling architecture arch of baude_rate
 
 } {} {}}
