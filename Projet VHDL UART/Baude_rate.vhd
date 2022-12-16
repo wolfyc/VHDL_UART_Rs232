@@ -18,8 +18,8 @@ constant divisor_bdx16: positive:= DE10_clock /bauderate/16; -- limite du compte
 signal countx1: integer range 0 to divisor_bd;
 signal countx16: integer range 0 to divisor_bdx16;
 
-signal tick : std_logic;
-signal tickx16 : std_logic;
+signal tick : std_logic:= '1';
+signal tickx16 : std_logic:='1';
 
 begin
 

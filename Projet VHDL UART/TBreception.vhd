@@ -9,6 +9,7 @@ end entity;
 architecture arch of tb is
     signal clk_tb,rst_tb,tickx16_tb,br_X1_tick_tb,rx_in_tb: std_logic;
     signal rx_data_out_tb: std_logic_vector (7 downto 0);
+    signal value :std_logic_vector(11 downto 0):="110101010101";	
 begin
 
 baude_rate: entity work.Baude_rate 
@@ -34,22 +35,24 @@ begin
     wait for 10 NS;
 end process;
 
-constant value :std_logic_vector(11 downto 0):="110101010101";
+rst_tb <= '0';
+rx_in_tb <= '1';
 
 transmission: process(br_X1_tick_tb)
-
-variable cmt: integer range 1 to 12;
+    variable cmt: integer range 1 to 12 := 1;
 begin
-    if rst_tb = '1' then
-        cmt = 1;
+	
+    if (rst_tb = '1') then
+        cmt := 1;
     elsif rising_edge(br_X1_tick_tb) then
-        cmt = cmt +1;
+        cmt := cmt +1;
+	rx_in_tb <= value(cmt-1);
     end if;
-    rx_in_tb <= value(cmt);
+    
     if cmt = 12 then
-        cmt =1;
-    end if
-
+       		cmt :=1;
+   	 end if;
 end process;
+
 end arch;
 

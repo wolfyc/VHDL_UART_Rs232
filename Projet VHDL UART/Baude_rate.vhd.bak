@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity baude_rate is 
+entity baude_rate is
 	Generic (  DE10_clock : positive := 50E6;-- frequence de la carte FPGA 50 mHz
 		    baudeRate : positive := 9600);
 	port( rst,clk: in std_logic;
@@ -18,8 +18,8 @@ constant divisor_bdx16: positive:= DE10_clock /bauderate/16; -- limite du compte
 signal countx1: integer range 0 to divisor_bd;
 signal countx16: integer range 0 to divisor_bdx16;
 
-signal tick : std_logic;
-signal tickx16 : std_logic;
+signal tick : std_logic:= '1';
+signal tickx16 : std_logic;'1';
 
 begin
 
