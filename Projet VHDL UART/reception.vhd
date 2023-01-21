@@ -13,7 +13,7 @@ architecture arch of reception is
     type rx_etats is (Idle,start,data,stop);
     signal rx_etat : rx_etats := Idle;
 
-    signal rx_data_temp  : std_logic_vector(7 downto 0):= (others => '0');
+    signal rx_out_temp  : std_logic_vector(7 downto 0):= (others => '0');
 
 begin
 
@@ -29,13 +29,13 @@ begin
                 rx_etat <= idle;
                 bit_duration := 0;
                 bit_counter := 7;
-                rx_data_temp <= (others => '0');
+                rx_out_temp <= (others => '0');
                 rx_out <= (others => '0');
             else
                 if (tickx16 = '1') then 
                     case rx_etat is 
                         when Idle =>
-                            rx_data_temp <= (others => '0');
+                            rx_out_temp <= (others => '0');
                             bit_duration := 0;
                             bit_counter := 7;
 
@@ -64,7 +64,7 @@ begin
                         
                                     if bit_duration = 15 then 
                                     report "DATA inside";
-                                        rx_data_temp(bit_counter) <= rx_in;
+                                        rx_out_temp(bit_counter) <= rx_in;
                                         bit_duration := 0;
                                         if bit_counter = 0 then 
                                             rx_etat <= stop;
@@ -81,7 +81,7 @@ begin
                                     if bit_duration = 15   then --
 						report "stopingg";
 					    if rx_in = '1' then  
-                                            rx_out <= rx_data_temp;
+                                            rx_out <= rx_out_temp;
                                             rx_etat <= Idle;
 						 report "IDELING BACK !";
                                         else

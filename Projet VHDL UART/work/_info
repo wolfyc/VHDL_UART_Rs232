@@ -22,9 +22,9 @@ VMPI:zzo;PP?bRY>G`Gi9Q0
 !s100 mUhnFehn=a@Q@N0je7H9K2
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1674330960
+Z8 !s110 1674331716
 !i10b 1
-Z9 !s108 1674330960.000000
+Z9 !s108 1674331716.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd|
 Z11 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd|
 !i113 1
@@ -50,46 +50,68 @@ R11
 R12
 R13
 Erec_tran_tb
-w1674330781
+Z15 w1674332293
 R1
 R2
 R3
 R4
-8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/rec_tran_tb.vhd
-FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/rec_tran_tb.vhd
+Z16 8C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\rec_tran_tb.vhd
+Z17 FC:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\rec_tran_tb.vhd
 l0
 L5
 V8@7O4W468L7NE9fO:VUeV0
 !s100 3P2VMX2=<[0ASh=EzE22N1
 R7
 32
-Z15 !s110 1674330961
+Z18 !s110 1674332297
 !i10b 1
-Z16 !s108 1674330961.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/rec_tran_tb.vhd|
-!s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/rec_tran_tb.vhd|
+Z19 !s108 1674332297.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\rec_tran_tb.vhd|
+Z21 !s107 C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\rec_tran_tb.vhd|
+!i113 1
+R12
+R13
+Aarch
+Z22 DEx4 work 12 transmission 0 22 4D=mTO;aklG]Zkz5:Q[AT2
+Z23 DEx4 work 9 reception 0 22 Clb2<76BgIB`JAbnVmT520
+R14
+R1
+R2
+R3
+Z24 DEx4 work 11 rec_tran_tb 0 22 8@7O4W468L7NE9fO:VUeV0
+l16
+L9
+VE48iYLAo<YSDVkM:g7lVd2
+!s100 GgFI7T>KIPD7h5i]nUnE20
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
 !i113 1
 R12
 R13
 Ereception
-Z17 w1674324895
+Z25 w1674331129
 R1
 R2
 R3
 R4
-Z18 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd
-Z19 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd
+Z26 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd
+Z27 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd
 l0
 L5
 VClb2<76BgIB`JAbnVmT520
 !s100 7lNZW0DS6Ja?bINnf8G=K0
 R7
 32
-R15
+Z28 !s110 1674331717
 !i10b 1
-R16
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd|
-Z21 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd|
+Z29 !s108 1674331717.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd|
+Z31 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd|
 !i113 1
 R12
 R13
@@ -97,45 +119,45 @@ Aarch
 R1
 R2
 R3
-Z22 DEx4 work 9 reception 0 22 Clb2<76BgIB`JAbnVmT520
+R23
 l18
 L11
-V:b5;Jc9UGIS5Mo^3dQJ9b2
-!s100 @jBM3<@IU]AiF;`z<5bHa2
+VlS8`Lh3clWZ6Bog98oBi82
+!s100 NeD2o8dLEH3;K_Y[8;T571
 R7
 32
-R15
+R28
 !i10b 1
-R16
-R20
-R21
+R29
+R30
+R31
 !i113 1
 R12
 R13
 Ereception_tb
-Z23 w1674330569
+Z32 w1674330569
 R1
 R2
 R3
 R4
-Z24 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd
-Z25 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd
+Z33 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd
+Z34 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd
 l0
 L5
 VZGC@PHD=394KHUQ?V_MzJ0
 !s100 iz4c[D_7jA3oJGoT0d<4M1
 R7
 32
-R15
+R28
 !i10b 1
-R16
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd|
-Z27 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd|
+R29
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd|
+Z36 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd|
 !i113 1
 R12
 R13
 Aarch
-R22
+R23
 R14
 R1
 R2
@@ -147,38 +169,38 @@ VVHWhj9VM8fmOFVJ@[;LPk1
 !s100 ]nlR4AW`hAaY26l@i0fGh3
 R7
 32
-R15
+R28
 !i10b 1
-R16
-R26
-R27
+R29
+R35
+R36
 !i113 1
 R12
 R13
 Etb
-Z28 w1674330448
+Z37 w1674330448
 R1
 R2
 R3
 R4
-Z29 8C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd
-Z30 FC:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd
+Z38 8C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd
+Z39 FC:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd
 l0
 L5
 VDh9a4B0V]Nl5OBn^0VU[U1
 !s100 CeW6GPAgSSSJfWiE4?khm1
 R7
 32
-Z31 !s110 1674330451
+Z40 !s110 1674330451
 !i10b 1
-Z32 !s108 1674330451.000000
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd|
-Z34 !s107 C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd|
+Z41 !s108 1674330451.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd|
+Z43 !s107 C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBreception.vhd|
 !i113 1
 R12
 R13
 Aarch
-R22
+R23
 R14
 R1
 R2
@@ -190,33 +212,33 @@ V9?CC[7jBZ1n<8UbQJFL[k0
 !s100 EZdVVQ3ie]XZYhHS;LC<z0
 R7
 32
-R31
+R40
 !i10b 1
-R32
-R33
-R34
+R41
+R42
+R43
 !i113 1
 R12
 R13
 Etb2
-Z35 w1674326089
+Z44 w1674326089
 R1
 R2
 R3
 R4
-Z36 8C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd
-Z37 FC:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd
+Z45 8C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd
+Z46 FC:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd
 l0
 L6
 Vml8681oB`D3B1PUG2QHz51
 !s100 B<MG@_O@J]A>=h[RzOEe;3
 R7
 32
-Z38 !s110 1674326096
+Z47 !s110 1674326096
 !i10b 1
-Z39 !s108 1674326096.000000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd|
-Z41 !s107 C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd|
+Z48 !s108 1674326096.000000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd|
+Z50 !s107 C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\TBtrasmission.vhd|
 !i113 1
 R12
 R13
@@ -233,22 +255,22 @@ V3C2ch_i9kkHCeBZAXkEiV2
 !s100 jV^bT54c@F;K>E_2`5L2U3
 R7
 32
-R38
+R47
 !i10b 1
-R39
-R40
-R41
+R48
+R49
+R50
 !i113 1
 R12
 R13
 Etransmission
-Z42 w1674326924
+Z51 w1674326924
 R1
 R2
 R3
 R4
-Z43 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd
-Z44 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd
+Z52 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd
+Z53 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd
 l0
 L7
 V4D=mTO;aklG]Zkz5:Q[AT2
@@ -258,8 +280,8 @@ R7
 R8
 !i10b 1
 R9
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd|
-Z46 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd|
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd|
+Z55 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd|
 !i113 1
 R12
 R13
@@ -267,7 +289,7 @@ Abehavioral
 R1
 R2
 R3
-Z47 DEx4 work 12 transmission 0 22 4D=mTO;aklG]Zkz5:Q[AT2
+R22
 l34
 L19
 VZzLjQ=NcP>PjHo]Me<fE=2
@@ -277,35 +299,35 @@ R7
 R8
 !i10b 1
 R9
-R45
-R46
+R54
+R55
 !i113 1
 R12
 R13
 Etrasmission_tb
-Z48 w1674330871
+Z56 w1674331512
 R1
 R2
 R3
 R4
-Z49 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd
-Z50 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd
+Z57 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd
+Z58 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd
 l0
 L6
 V6@>eKUA:B5[ZPe5L6f_CI0
 !s100 3FIge=VeFEH<KbDAA_1]m3
 R7
 32
-R15
+R28
 !i10b 1
-R16
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd|
-Z52 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd|
+R29
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd|
+Z60 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/trasmission_tb.vhd|
 !i113 1
 R12
 R13
 Aarch
-R47
+R22
 R14
 R1
 R2
@@ -313,37 +335,37 @@ R3
 DEx4 work 14 trasmission_tb 0 22 6@>eKUA:B5[ZPe5L6f_CI0
 l17
 L10
-V`zVEzkE[FJ_>gXInP<8MI2
-!s100 NMeFAZ[0lg1NgBXnaSDe12
+V7KgU3Jz7So8o;J0E5lo5g2
+!s100 7e@2la][dMK=g8<h_MKN62
 R7
 32
-R15
+R28
 !i10b 1
-R16
-R51
-R52
+R29
+R59
+R60
 !i113 1
 R12
 R13
 Euart
-Z53 w1674324183
+Z61 w1674324183
 R1
 R2
 R3
 R4
-Z54 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd
-Z55 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd
+Z62 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd
+Z63 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd
 l0
 L9
 VkjQWNX_L3Un0bP7Z6Plzd0
 !s100 Zi::cV3M=?FbeKTaEATR20
 R7
 32
-R15
+R28
 !i10b 1
-R16
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd|
-Z57 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd|
+R29
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd|
+Z65 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd|
 !i113 1
 R12
 R13
@@ -358,33 +380,33 @@ VG<5oXJLbJO7[S>oN:;CMX0
 !s100 6jihgU>2ZFa1lJFdDX8Qg2
 R7
 32
-R15
+R28
 !i10b 1
-R16
-R56
-R57
+R29
+R64
+R65
 !i113 1
 R12
 R13
 Euart_rx
-Z58 w1673804929
+Z66 w1673804929
 R1
 R2
 R3
 R4
-Z59 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd
-Z60 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd
+Z67 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd
+Z68 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd
 l0
 L8
 VZ2DQVh;H>cjcgOGIb6IZC2
 !s100 Y:=n70Eh83OLM^nR6id^O3
 R7
 32
-Z61 !s110 1674317979
+Z69 !s110 1674317979
 !i10b 1
-Z62 !s108 1674317979.000000
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd|
-Z64 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd|
+Z70 !s108 1674317979.000000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd|
+Z72 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART_rx.vhd|
 !i113 1
 R12
 R13
@@ -399,32 +421,32 @@ Vd?WG7<j1_jk87>VNf5S;33
 !s100 1;JBc7=4Me3^UW^f37aF43
 R7
 32
-R61
+R69
 !i10b 1
-R62
-R63
-R64
+R70
+R71
+R72
 !i113 1
 R12
 R13
 Euart_rx_tb
-Z65 w1673436105
+Z73 w1673436105
 R2
 R3
 R4
-Z66 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd
-Z67 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd
+Z74 8C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd
+Z75 FC:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd
 l0
 L4
 VU0N:gaiV@4D185WA7iaW:3
 !s100 GMG:@NBl1zLb`QfLZ?dAL2
 R7
 32
-R61
+R69
 !i10b 1
-R62
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd|
-Z69 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd|
+R70
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd|
+Z77 !s107 C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/TBreception2.vhd|
 !i113 1
 R12
 R13
@@ -438,33 +460,33 @@ VSaJBOjk[C9QR^A;B0agoJ2
 !s100 eQX9Vz]aXdSEF2nl33zj]3
 R7
 32
-R61
-!i10b 1
-R62
-R68
 R69
+!i10b 1
+R70
+R76
+R77
 !i113 1
 R12
 R13
 Euart_tx
-Z70 w1674324973
+Z78 w1674324973
 R1
 R2
 R3
 R4
-Z71 8C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd
-Z72 FC:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd
+Z79 8C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd
+Z80 FC:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd
 l0
 L7
 V85T=7`R5WH_`UBO3Q>P=23
 !s100 i>ig]I3OjHTXZe?ROAfzV2
 R7
 32
-Z73 !s110 1674324984
+Z81 !s110 1674324984
 !i10b 1
-Z74 !s108 1674324984.000000
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd|
-Z76 !s107 C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd|
+Z82 !s108 1674324984.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd|
+Z84 !s107 C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\transmission.vhd|
 !i113 1
 R12
 R13
@@ -479,11 +501,11 @@ VbYjDTLGh^;VJId8IXNV4h2
 !s100 gIYJhSRaV9]N@=4cK:VZ81
 R7
 32
-R73
+R81
 !i10b 1
-R74
-R75
-R76
+R82
+R83
+R84
 !i113 1
 R12
 R13
