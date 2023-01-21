@@ -3,17 +3,17 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity tb2 is
+entity trasmission_tb is
 end entity;
 
 
-architecture arch of tb2 is
+architecture arch of trasmission_tb is
    signal clk_tb   : std_logic;         
    signal rst_tb   : std_logic:='0';     
    signal tx_start_tb: std_logic;      
    signal br_X1_tick_tb,tickx16_tb	: std_logic; 
-   signal tx_data_in_tb  : std_logic_vector(7 downto 0):="10101010" ;  
-	signal tx_data_out_tb  : std_logic;
+   signal tx_in_tb  : std_logic_vector(7 downto 0):="10101010" ;  
+	signal tx_out_tb  : std_logic;
 begin
 baude_rate: entity work.Baude_rate 
     Generic map (  DE10_clock => 50E6,
@@ -24,13 +24,13 @@ baude_rate: entity work.Baude_rate
         br_X1_tick=>br_X1_tick_tb,
         br_X16_tick=>tickx16_tb);
 
-uut: entity work.UART_tx port map(
+uut: entity work.transmission port map(
         clk   =>  clk_tb,       
-        reset    =>   rst_tb,   
-        tx_start =>   tx_start_tb,   
+        rst    =>   rst_tb,   
+        t_launch =>   tx_start_tb,   
 	    br_X1_tick	=>  br_X1_tick_tb, 
-        tx_data_in  =>  tx_data_in_tb,
-        tx_data_out  =>  tx_data_out_tb);
+        tx_in  =>  tx_in_tb,
+        tx_out  =>  tx_out_tb);
 
 Horloge: process
     begin
