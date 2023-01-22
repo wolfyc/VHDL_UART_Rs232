@@ -3,11 +3,11 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity trasmission_tb is
+entity transmission_tb is
 end entity;
 
 
-architecture arch of trasmission_tb is
+architecture arch of transmission_tb is
    signal clk_tb   : std_logic;         
    signal rst_tb   : std_logic:='0';     
    signal t_launch_tb: std_logic;      
@@ -47,24 +47,5 @@ begin
 	t_launch_tb <= '0';
 	wait for 2 MS;
 end process;
-
---transmission: process(br_X1_tick_tb,clk_tb)
---begin
---    if (rst_tb = '1') then
---        bit_index <= 0;
---    elsif rising_edge(br_X1_tick_tb) then
---	if bit_index < 16 then
---        bit_index <= bit_index +1;
---	end if;
---	if bit_index > 14 then
---		rx_in_tb <= '1';
---		bit_index <= 0;
---	end if;
---        if (bit_index > 4) and (bit_index < 15)  then
---            rx_in_tb <= valeur(bit_index-5);
---        end if;
---    end if;
---	
---end process;
 
 end arch;

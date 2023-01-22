@@ -28,7 +28,7 @@ begin
             if rst = '1' then
                 rx_etat <= idle;
                 bit_duration := 0;
-                bit_counter := 7;
+                bit_counter := 0;
                 rx_out_temp <= (others => '0');
                 rx_out <= (others => '0');
             else
@@ -37,15 +37,15 @@ begin
                         when Idle =>
                             rx_out_temp <= (others => '0');
                             bit_duration := 0;
-                            bit_counter := 7;
+                            bit_counter := 0;
 
                             if (rx_in = '0') then 
                                 rx_etat <= start;
-				report "here we go";
+				                report "here we go";
                             end if;
 
                          when start =>
-				report "counting 'bit_duration' is " & integer'image(bit_duration);
+				            report "counting 'bit_duration' is " & integer'image(bit_duration);
                             if (rx_in = '0') then             -- verify that the start bit is preset
                                 if (bit_duration = 10) then   -- wait a half of the baud rate cycle
                                     report "going live at 'bit_duration' ticks " & integer'image(bit_duration);
@@ -66,12 +66,12 @@ begin
                                     report "DATA inside";
                                         rx_out_temp(bit_counter) <= rx_in;
                                         bit_duration := 0;
-                                        if bit_counter = 0 then 
+                                        if bit_counter = 7 then 
                                             rx_etat <= stop;
                                             
                                             bit_duration := 0;
                                         else
-                                            bit_counter := bit_counter - 1;
+                                            bit_counter := bit_counter + 1;
                                             report "counting 'bit_counter' is " & integer'image(bit_counter);
                                         end if;
                                     else
