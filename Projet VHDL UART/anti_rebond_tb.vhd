@@ -25,6 +25,6 @@ begin
     end process;
 
 
-              bouton_in_tb<='0', '1' after 2 ms, '0' after 7 ms, '1' after 10 ms;
+              bouton_in_tb<='0', '1' after 25 us, '0' after 110 us, '1' after 205 us;
 
 end arch;

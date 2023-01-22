@@ -11,45 +11,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading entity transmission
 -- Loading entity reception
 
-} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity reception
--- Compiling architecture arch of reception
-
-} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity anti_rebond
--- Compiling architecture arch of anti_rebond
-
-} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond_tb.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity anti_rebond_tb
--- Compiling architecture arch of anti_rebond_tb
--- Loading entity anti_rebond
-
-} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity reception_tb
--- Compiling architecture arch of reception_tb
--- Loading entity baude_rate
--- Loading entity reception
-
 } {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -58,29 +19,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity transmission
 -- Compiling architecture Behavioral of transmission
-
-} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission_tb.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity transmission_tb
--- Compiling architecture arch of transmission_tb
--- Loading entity baude_rate
--- Loading entity transmission
-
-} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/rec_tran_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\rec_tran_tb.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity rec_tran_tb
--- Compiling architecture arch of rec_tran_tb
--- Loading entity baude_rate
--- Loading entity reception
--- Loading entity transmission
 
 } {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/UART.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -94,6 +32,46 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading entity transmission
 -- Loading entity reception
 
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity anti_rebond
+-- Compiling architecture arch of anti_rebond
+
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reception
+-- Compiling architecture arch of reception
+
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity anti_rebond_tb
+-- Compiling architecture arch of anti_rebond_tb
+-- Loading entity anti_rebond
+
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/rec_tran_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\rec_tran_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rec_tran_tb
+-- Compiling architecture arch of rec_tran_tb
+-- Loading entity baude_rate
+-- Loading entity reception
+-- Loading entity transmission
+
 } {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Baude_rate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -103,4 +81,49 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity baude_rate
 -- Compiling architecture arch of baude_rate
 
-} {} {}}
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/pilot_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/pilot_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pilot_tb
+-- Compiling architecture Behavioral of pilot_tb
+-- Loading entity pilot
+
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reception_tb
+-- Compiling architecture arch of reception_tb
+-- Loading entity baude_rate
+-- Loading entity reception
+
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity transmission_tb
+-- Compiling architecture arch of transmission_tb
+-- Loading entity baude_rate
+-- Loading entity transmission
+
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Pilot.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Pilot.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pilot
+-- Compiling architecture Behavioral of pilot
+-- Loading entity button_debounce
+** Error: C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Pilot.vhd(31): (vcom-1484) Unknown formal identifier "rst".
+-- Loading entity UART
+** Error: C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/Pilot.vhd(47): VHDL Compiler exiting
+
+} {10.0 11.0 12.0 13.0} {}}
