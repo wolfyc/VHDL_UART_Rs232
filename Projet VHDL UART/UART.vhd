@@ -16,7 +16,7 @@ entity UART is
 
         rx             : in  std_logic;
         tx             : out std_logic
-        );
+    );
 end UART;
 
 
@@ -43,7 +43,6 @@ begin
             tx_out    => tx,
             br_X1_tick => br_X1_tick
             );
-
 
     receiver: entity work.reception
     port map(
