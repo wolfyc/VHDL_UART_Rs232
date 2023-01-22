@@ -7,15 +7,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity anti_rebond
 -- Compiling architecture arch of anti_rebond
 
-} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/reception.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity reception
--- Compiling architecture arch of reception
-
 } {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/anti_rebond_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -45,6 +36,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity transmission
 -- Compiling architecture Behavioral of transmission
+
+} {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/transmission_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity transmission_tb
+-- Compiling architecture arch of transmission_tb
+-- Loading entity baude_rate
+-- Loading entity transmission
 
 } {} {}} {C:/Users/hrf_m/Desktop/Etudes EI2I 3A/Projet_VHDL/VHDL_UART_Rs232/Projet VHDL UART/rec_tran_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\hrf_m\Desktop\Etudes EI2I 3A\Projet_VHDL\VHDL_UART_Rs232\Projet VHDL UART\rec_tran_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
