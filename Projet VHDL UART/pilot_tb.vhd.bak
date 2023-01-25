@@ -74,7 +74,7 @@ end process;
             t_launch <= '1';
 	wait for 101 us;
  	t_launch <= '0';
-        wait for 1.4 ms;
+        wait for 1 ms;
 
      
 --

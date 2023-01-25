@@ -25,10 +25,10 @@ architecture Behavioral of pilot is
 
 begin
 
-    tx_button_controller: entity work.button_debounce
+    tx_button_controller: entity work.anti_rebond
     port map(
             clk            => clk,
-            reset          => rst,
+            --reset          => rst,
             bouton_in      => tx_enable,
             bouton_out     => bouton_appuye
             );

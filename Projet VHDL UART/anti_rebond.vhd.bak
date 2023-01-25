@@ -12,8 +12,8 @@ end entity anti_rebond;
  
 architecture arch of anti_rebond is
  
-  -- Set for 5 000 clock ticks of 50 MHz clock (0.1 ms)
-  constant c_DEBOUNCE_LIMIT : integer := 5000;
+  -- Set for 15 000 clock ticks of 50 MHz clock (0.1 ms)
+  constant c_DEBOUNCE_LIMIT : integer := 15000;
  
   signal r_Count : integer range 0 to c_DEBOUNCE_LIMIT := 0;
   signal r_State : std_logic := '0';

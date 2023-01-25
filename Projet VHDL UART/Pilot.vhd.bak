@@ -21,47 +21,23 @@ end pilot;
 
 architecture Behavioral of pilot is
 
-    component anti_rebond
-        port(
-            clk        : in  std_logic;
-            --rst      : in  std_logic;
-            bouton_in  : in  std_logic;
-            bouton_out : out std_logic
-            );
-    end component;
-
-
-    component UART
-        port(
-            clk            : in  std_logic;
-            rst          : in  std_logic;
-            t_launch       : in  std_logic;
-
-            data_in        : in  std_logic_vector (7 downto 0);
-            data_out       : out std_logic_vector (7 downto 0);
-
-            rx             : in  std_logic;
-            tx             : out std_logic
-            );
-    end component;
-
-    signal button_pressed : std_logic;
+    signal bouton_appuye : std_logic;
 
 begin
 
-    tx_button_controller: anti_rebond
+    tx_button_controller: entity work.button_debounce
     port map(
             clk            => clk,
-            --rst          => rst,
+            reset          => rst,
             bouton_in      => tx_enable,
-            bouton_out     => button_pressed
+            bouton_out     => bouton_appuye
             );
 
-    UART_transceiver: UART
+    UART_transceiver: entity work.UART
     port map(
             clk            => clk,
             rst          => rst,
-            t_launch       => button_pressed,
+            t_launch       => bouton_appuye,
             data_in        => data_in,
             data_out       => data_out,
             rx             => rx,
