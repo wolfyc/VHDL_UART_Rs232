@@ -21,23 +21,22 @@ end pilot;
 
 architecture Behavioral of pilot is
 
-    signal bouton_appuye : std_logic;
+    signal t_launched : std_logic;
 
 begin
 
     tx_button_controller: entity work.anti_rebond
     port map(
             clk            => clk,
-            --reset          => rst,
             bouton_in      => tx_enable,
-            bouton_out     => bouton_appuye
+            bouton_out     => t_launched
             );
 
     UART_transceiver: entity work.UART
     port map(
             clk            => clk,
             rst          => rst,
-            t_launch       => bouton_appuye,
+            t_launch       => t_launched,
             data_in        => data_in,
             data_out       => data_out,
             rx             => rx,

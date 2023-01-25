@@ -45,51 +45,37 @@ begin
 
     clk_generator: process
     begin
-        wait for clock_cycle/2;
-            clk <= '1';
-        wait for clock_cycle/2;
-            clk <= '0';
+            wait for clock_cycle/2;
+                clk <= '1';
+            wait for clock_cycle/2;
+                clk <= '0';
     end process clk_generator;
 
 
     signal_generator: process
     begin
-        tx_data_in <= X"55";
-        
-	wait for 1.5 ms;
+            tx_data_in <= X"55";
+            
+        wait for 1.5 ms;
 
-	tx_data_in <= X"FF";
+        tx_data_in <= X"FF";
 
-	wait for 1.5 ms;
-end process;
-	signals_generator: process
+        wait for 1.5 ms;
+    end process;
+
+	bouton_sim_generator: process
    	 begin
-
-        t_launch <= '0';
+            t_launch <= '0';
         wait for 25 ns;
             t_launch <= '1';
         wait for 50 ns;    -- test the button_debounce module
             t_launch <= '0';
         wait for 20 ns;
             t_launch <= '1';
-	wait for 101 us;
- 	t_launch <= '0';
+	    wait for 101 us;
+ 	        t_launch <= '0';
         wait for 1.4 ms;
-
-     
---
---	wait for 25 ns;
---            t_launch <= '1';
---        wait for 50 ns;    -- test the button_debounce module
---            t_launch <= '0';
---        wait for 20 ns;
---            t_launch <= '1';
---	wait for 101 us;
--- 	t_launch <= '0';
---        wait for 1 ms;
-        
-
-    end process signals_generator;
+    end process;
 
 
 end Behavioral;

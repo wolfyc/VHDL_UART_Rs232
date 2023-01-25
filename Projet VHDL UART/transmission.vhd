@@ -21,12 +21,9 @@ architecture Behavioral of transmission is
     type tx_etats is (Idle, start, data, stop);
     signal tx_etat  : tx_etats := Idle;
 
-
-    --signal br_X1_tick     : std_logic:= '0';
-
     signal bit_counter        : integer range 0 to 8 := 0;
     signal bit_counter_rst  : std_logic := '1';
-    signal stored_data       : std_logic_vector(7 downto 0) := (others=>'0');
+    signal tx_stored_data       : std_logic_vector(7 downto 0) := (others=>'0');
 
     signal t_launch_detected    : std_logic := '0';
     signal start_rst       : std_logic := '0';
@@ -47,7 +44,7 @@ begin
 -- cycle long impulse per one button push. t_launch_detected keeps the information that
 -- such event has occurred.
 -- The second purpose of t_launch_detector is to secure the transmitting data.
--- stored_data keeps the transmitting data saved during the transmission.
+-- tx_stored_data keeps the transmitting data saved during the transmission.
 
     t_launch_detector: process(clk)
     begin
@@ -58,7 +55,7 @@ begin
                 if (t_launch = '1') and (t_launch_detected = '0') then
                     t_launch_detected <= '1';
 report "start detected";
-                    stored_data <= tx_in;
+                    tx_stored_data <= tx_in;
                 end if;
             end if;
         end if;
@@ -67,8 +64,8 @@ report "start detected";
 
 -- The bit_counter_counter process is a simple counter from 0 to 7 working on the baud
 -- rate frequency. It is used to perform transformation between the parallel
--- data (stored_data) and the serial output (tx_out).
--- The bit_counter signal is used in transmission_FSM to go over the stored_data vector
+-- data (tx_stored_data) and the serial output (tx_out).
+-- The bit_counter signal is used in transmission_FSM to go over the tx_stored_data vector
 -- and send the bits one by one.
 
     bit_counter_counter: process(clk)
@@ -119,7 +116,7 @@ report "started";
 
                         when data =>
 
-                            tx_out <= stored_data(bit_counter);   -- send one bit per one baud clock cycle 8 times
+                            tx_out <= tx_stored_data(bit_counter);   -- send one bit per one baud clock cycle 8 times
 report "counting 'bit_counter' is " & integer'image(bit_counter);
                             if (bit_counter = 7) then
 report "rest 'bit_counter' at " & integer'image(bit_counter);

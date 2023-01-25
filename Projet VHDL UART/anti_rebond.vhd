@@ -13,10 +13,10 @@ end entity anti_rebond;
 architecture arch of anti_rebond is
  
   -- Set for 5 000 clock ticks of 50 MHz clock (0.1 ms)
-  constant c_DEBOUNCE_LIMIT : integer := 5000;
+  constant AR_ticks_counter : integer := 5000;
  
-  signal r_Count : integer range 0 to c_DEBOUNCE_LIMIT := 0;
-  signal r_State : std_logic := '0';
+  signal stabil_counter : integer range 0 to AR_ticks_counter := 0;
+  signal etat_courant : std_logic := '0';
  
 begin
  
@@ -25,24 +25,24 @@ begin
     if rising_edge(clk) then
  
       -- Switch input is different than internal switch value, so an input is
-      -- changing.  Increase counter until it is stable for c_DEBOUNCE_LIMIT.
-      if (bouton_in /= r_State and r_Count < c_DEBOUNCE_LIMIT) then
-        r_Count <= r_Count + 1;
+      -- changing.  Increase counter until it is stable for AR_ticks_counter.
+      if (bouton_in /= etat_courant and stabil_counter < AR_ticks_counter) then
+        stabil_counter <= stabil_counter + 1;
  
       -- End of counter reached, switch is stable, register it, reset counter
-      elsif r_Count = c_DEBOUNCE_LIMIT then
-        r_State <= bouton_in;
-        r_Count <= 0;
+      elsif stabil_counter = AR_ticks_counter then
+        etat_courant <= bouton_in;
+        stabil_counter <= 0;
  
       -- Switches are the same state, reset the counter
       else
-        r_Count <= 0;
+        stabil_counter <= 0;
  
       end if;
     end if;
   end process p_Debounce;
  
   -- Assign internal register to output (debounced!)
-  bouton_out <= r_State;
+  bouton_out <= etat_courant;
  
 end architecture arch;

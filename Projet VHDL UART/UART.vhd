@@ -34,7 +34,7 @@ begin
             br_X1_tick=>br_X1_tick,
             br_X16_tick=>tickx16);
 
-    transmitter: entity work.transmission
+    tx_module: entity work.transmission
     port map(
             clk            => clk,
             rst          => rst,
@@ -44,7 +44,7 @@ begin
             br_X1_tick => br_X1_tick
             );
 
-    receiver: entity work.reception
+    rx_module: entity work.reception
     port map(
             clk            => clk,
             rst          => rst,
