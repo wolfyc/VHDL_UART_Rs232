@@ -1,0 +1,14 @@
+
+State Machine - |pilot|UART:UART_transceiver|reception:rx_module|rx_etat
+Name rx_etat.stop rx_etat.data rx_etat.start rx_etat.Idle 
+rx_etat.Idle 0 0 0 0 
+rx_etat.start 0 0 1 1 
+rx_etat.data 0 1 0 1 
+rx_etat.stop 1 0 0 1 
+
+State Machine - |pilot|UART:UART_transceiver|transmission:tx_module|tx_etat
+Name tx_etat.stop tx_etat.data tx_etat.start tx_etat.Idle 
+tx_etat.Idle 0 0 0 0 
+tx_etat.start 0 0 1 1 
+tx_etat.data 0 1 0 1 
+tx_etat.stop 1 0 0 1 
